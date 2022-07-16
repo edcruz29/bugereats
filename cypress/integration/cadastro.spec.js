@@ -20,7 +20,9 @@ describe('Cadastro', ()=> {
                 complemento:'casa 1',
                 bairro:'Jardim São Nicolau',
                 cidade:'São Paulo/SP'
-            }
+            },
+            metodo_entrega:'Moto',
+            cnh:'cnh-digital.jpg.jpg'
         }
         cy.get('input[name="name"]').type(entregador.nome) //type serve para eu pedir para ele escrever o valor da váriavel no campo.
         cy.get('input[name="cpf"]').type(entregador.cpf)
@@ -34,5 +36,16 @@ describe('Cadastro', ()=> {
         cy.get('#page-deliver input[name="address"]').should('have.value',entregador.endereco.rua)
         cy.get('#page-deliver input[name="district"]').should('have.value',entregador.endereco.bairro)
         cy.get('#page-deliver input[name="city-uf"]').should('have.value',entregador.endereco.cidade)
+
+        //selecionar o método de entrega com busca do elemento pai e variável
+        cy.contains('.delivery-method li', entregador.metodo_entrega).click()
+
+        //upload de arquivos  (expressões regulares básicas ^ - começa com e $ termina com * contém)
+        cy.get('input[accept^="image"]').attachFile('/images/' + entregador.cnh)
+        cy.get('button[type="submit"]').click()
+
+       
+
+        
     })
 })

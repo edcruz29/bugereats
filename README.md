@@ -19,5 +19,10 @@ Cypress Discover da QACADEMY
 ## Aplicativo Testado
 - **https://buger-eats.vercel.app/**
 
+
+## Para iniciar
+- **npm Install**
+- **npm run test**
+
 **Desenvolvido por:**
 **[Eduardo Cruz](https://github.com/edcruz29/).**
