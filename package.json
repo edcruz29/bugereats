@@ -1,0 +1,14 @@
+{
+  "name": "bugereats",
+  "version": "1.0.0",
+  "description": "BugerEats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Eduardo Cruz",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  }
+}
