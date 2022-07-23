@@ -1,3 +1,4 @@
 node_modules
-screenshots
+cypress/screenshots
+cypress/videos
 dash.txt
