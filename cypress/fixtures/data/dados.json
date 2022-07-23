@@ -1,0 +1,16 @@
+{ 
+            "nome":"Eduardo Cruz",
+            "cpf":"00000014141",
+            "email":"teste@gmail.com",
+            "whatsapp":"11999999999",
+            "endereco": { 
+                "cep":"03685140",
+                "rua":"Rua Sino Grande",
+                "numero":26,
+                "complemento":"casa 1",
+                "bairro":"Jardim São Nicolau",
+                "cidade":"São Paulo/SP"
+            },
+            "metodo_entrega":"Moto",
+            "cnh":"cnh-digital.jpg.jpg"
+}

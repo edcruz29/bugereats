@@ -9,7 +9,11 @@
   "author": "Eduardo Cruz",
   "license": "MIT",
   "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
     "cypress": "^9.0.0",
-    "cypress-file-upload": "^5.0.8"
+    "cypress-file-upload": "^5.0.8",
+    "faker": "^6.6.6",
+    "gerador-validador-cpf": "^5.0.2",
+    "gzipme": "^1.0.0"
   }
 }

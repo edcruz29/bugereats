@@ -1,0 +1,67 @@
+{
+    "signup":{
+        "name":"Eduardo Cruz",
+            "cpf":"34874226892",
+            "email":"teste@gmail.com",
+            "whatsapp":"11999999999",
+            "adress": { 
+                "postalCode":"03685140",
+                "street":"Rua Sino Grande",
+                "number":26,
+                "complemento":"casa 1",
+                "district":"Jardim São Nicolau",
+                "city":"São Paulo/SP"
+            },
+            "deliveryMethod":"Moto",
+            "cnh":"cnh-digital.jpg.jpg"
+
+    },
+    "incId":{
+            "name":"Karine Elidio",
+            "cpf":"000000141AA",
+            "email":"teste02@gmail.com",
+            "whatsapp":"119888888888",
+            "adress": { 
+                "postalCode":"03685140",
+                "street":"Rua Sino Grande",
+                "number":35,
+                "complemento":"casa 1",
+                "district":"Jardim São Nicolau",
+                "city":"São Paulo/SP"
+            },
+            "deliveryMethod":"Moto",
+            "cnh":"cnh-digital.jpg.jpg"
+    },
+    "incEmail":{
+        "name":"Eduardo Cruz",
+        "cpf":"34874226892",
+        "email":"eduardo.cruz.com.br",
+        "whatsapp":"11999999999",
+        "adress": { 
+            "postalCode":"03685140",
+            "street":"Rua Sino Grande",
+            "number":26,
+            "complemento":"casa 1",
+            "district":"Jardim São Nicolau",
+            "city":"São Paulo/SP"
+        },
+        "deliveryMethod":"Moto",
+        "cnh":"cnh-digital.jpg.jpg"
+    },
+    "mandatoryId":{
+        "name":"Eduardo Cruz",
+        "email":"eduardo.cruz@gmailcom.br",
+        "whatsapp":"11999999999",
+        "adress": { 
+            "postalCode":"03685140",
+            "street":"Rua Sino Grande",
+            "number":26,
+            "complemento":"casa 1",
+            "district":"Jardim São Nicolau",
+            "city":"São Paulo/SP"
+        },
+        "deliveryMethod":"Moto",
+        "cnh":"cnh-digital.jpg.jpg"
+    }
+    
+}
