@@ -15,6 +15,8 @@ Cypress Discover da QACADEMY
 - **Node**
 - **Cypress**
 - **JavaScript**
+- **Faker**
+-**Gerador de CPF**
 
 ## Aplicativo Testado
 - **https://buger-eats.vercel.app/**
@@ -23,6 +25,7 @@ Cypress Discover da QACADEMY
 ## Para iniciar
 - **npm Install**
 - **npm run test**
+- **npx cypress run**
 
 **Desenvolvido por:**
 **[Eduardo Cruz](https://github.com/edcruz29/).**
